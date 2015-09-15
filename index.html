@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shift</title>
+  <meta charset="utf-8">
+  <meta name="description" content="" />
+  <meta name="keywords" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico?v=1.1"> 
+  <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- bxSlider Javascript file -->
+  <script src="assets/js/jquery.bxslider.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/slicknav.css" />
+  <script src="assets/js/jquery.slicknav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){  
+      $('.bxslider').bxSlider({
+        auto: true,
+        easing: 'ease-in',
+        pause: 15000
+      });
+    });
+  </script>
+  <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+  <script>
+    $(function(){
+      $('#nav').slicknav();
+    });
+  </script>
+</head>
+
+<body id="top">
+  <div ></div>
+  <div id="header">
+    <div class="center">
+      <div id="nav">          
+        <a href="#services">services</a>
+        <a href="#advantage">advantage</a>
+        <a href="#work">work</a>
+        <a href="#testimonials">testimonials</a>
+        <a href="#clients">clients</a>
+        <a href="#contact">contact</a>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="ouradvantage">
+    <div class="content">
+      <h2>OUR ADVANTAGE</h2>
+      <p>Not all design studios are created equal. At Shift, we’ve optimized our process and services to give our clients the best possible product.</p>
+      <ul>
+        <li>
+          <img src="assets/images/advantage_icon_one.png"/>
+          <h3>AGENCY QUALITY + STANDARD</h3>
+          <p>All members of our core team have extensive experience in their respective fields and have worked in agencies on the biggest brands in the world such as Coca Cola & Unilever.</p>
+        </li>
+        <li>
+          <img src="assets/images/advantage_icon_two.png"/>
+          <h3>VIRTUAL COLLABORATION</h3>
+          <p>By eliminating typical rent and insurance cost associated with a physical studio, we are able to keep our operating costs low. Less expenses means more savings for our clients.</p>
+        </li>
+        <li>
+          <img src="assets/images/advantage_icon_three.png"/>
+          <h3>Strategic scalability</h3>
+          <p>Whatever the size of the project, we have the resources and expertise to get it done. Our extensive network of expert freelancers can provide support whenever needed.</p>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="ourwork">
+    <div class="content">
+      <h2>our recent work</h2>
+      <p>We have been lucky enough to work with local boutiques as well as fortune 500 companies. Regardless of size or budget, we bring the same attention to detail and dedication to each project.</p>
+      <div class="divide"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="testimonial">
+    <div class="quotes">
+      <ul class="bxslider">
+        <li>
+          <p>We are very fortunate to have had the opportunity to work with Karl. He is not only capable in his professional area of design, but also possesses excellent communication skills. He is patient, responsible and cooperative. He applies his professional knowledge to meet clients’ needs. With his great design of our website, I have received a lot of positive feedback and attracted many new customers. Karl has done wonderful work that I have really appreciated.</p>
+          <p class="name"><strong>Ming Wang</strong> - Owner, Naturelife Health Centre</p>
+        </li>
+        <li>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta in dui in accumsan. Nullam sed feugiat neque. Vestibulum eget velit nec felis ultricies lacinia a vel augue. Aenean pulvinar, odio vitae suscipit ullamcorper, ipsum lacus pretium erat, in bibendum mi ante ut lorem. Pellentesque gravida a lorem ac interdum. Aliquam mattis sapien libero, non semper arcu vestibulum at. Maecenas eu rutrum nulla, non porta odio.</p>
+          <p class="name"><strong>Cristina Pizzagalli</strong> - Owner, A house in Waterdown</p>
+        </li>
+        <li>
+          <p> Mauris consequat cursus nisl eget laoreet. Vestibulum porttitor, ante id efficitur venenatis, velit lorem mollis felis, eget elementum magna eros ac quam. Pellentesque faucibus maximus purus maximus interdum. Maecenas malesuada fringilla nisl, in feugiat tellus vestibulum tristique. Suspendisse in pretium mauris, id varius lorem. Ut blandit molestie nibh quis dapibus. Fusce dignissim sit amet nisl et vestibulum. Nunc feugiat neque in imperdiet interdum. </p>
+          <p class="name"><strong>Finn Pizzagalli</strong> - Owner, A collection of balls</p>
+        </li>
+        <li>
+          <p> Curabitur aliquam faucibus consectetur. Duis congue nunc augue, vel laoreet neque tempor id. Nam id velit pulvinar, sodales tortor porttitor, porta sem. Proin eget pellentesque eros. Suspendisse in nisl facilisis, venenatis quam et, pellentesque tellus. Etiam sed nunc id lacus volutpat euismod sed at risus. Mauris molestie urna et eleifend dictum. Praesent sollicitudin convallis orci, a rhoncus nisi gravida vel. </p>
+          <p class="name"><strong>Sophie Eagar</strong> - Owner, Mental baggage</p>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="clients">
+    <div class="content">
+      <h2>our clients</h2>
+      <p>We are humbled to have been a part of these amazing brands.</p>
+      <div class="divide"></div>
+      <ul>
+        <li><img src="assets/images/client-logo-canadiantire.png"/></li>
+        <li><img src="assets/images/client-logo-catalyst.png"/></li>
+        <li><img src="assets/images/client-logo-nurun.png"/></li>
+        <li><img src="assets/images/client-logo-bmo.png"/></li>
+        <li><img src="assets/images/client-logo-achievers.png"/></li>
+        <li><img src="assets/images/client-logo-guthrie.png"/></li>
+        <li><img src="assets/images/client-logo-omli.png"/></li>
+        <li><img src="assets/images/client-logo-mce.png"/></li>
+        <li><img src="assets/images/client-logo-eeet.png"/></li>
+        <li><img src="assets/images/client-logo-gas.png"/></li>
+        <li><img src="assets/images/client-logo-pedalinx.png"/></li>
+        <li><img src="assets/images/client-logo-primal.png"/></li>
+        <li><img src="assets/images/client-logo-renew.png"/></li>
+        <li><img src="assets/images/client-logo-pride.png"/></li>
+        <li><img src="assets/images/client-logo-woodward.png"/></li>
+        <li><img src="assets/images/client-logo-cbcf.png"/></li>
+        <li><img src="assets/images/client-logo-huntshield.png"/></li>
+        <li><img src="assets/images/client-logo-coop.png"/></li>
+        <li><img src="assets/images/client-logo-broadstone.png"/></li>
+        <li><img src="assets/images/client-logo-zuck.png"/></li>
+        <li><img src="assets/images/client-logo-naturelife.png"/></li>
+        <li><img src="assets/images/client-logo-medcan.png"/></li>
+        <li><img src="assets/images/client-logo-oneworld.png"/></li>
+        <li><img src="assets/images/client-logo-prosperity.png"/></li>
+        <li><img src="assets/images/client-logo-phi.png"/></li>
+        <li><img src="assets/images/client-logo-rng.png"/></li>
+        <li><img src="assets/images/client-logo-home.png"/></li>
+        <li><img src="assets/images/client-logo-bluecross.png"/></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="contact">
+    <div class="content">
+      <h2>We’d Love to hear from you</h2>
+      <p>A journey of a thousand miles begin with a single step. We’d love to take that step with you.<br/>Our virtual doors are always open.</p>
+      <div class="main-container">
+        <div class="fixer-container">
+          <div class="contact-info">
+            <span class="img"><img src="assets/images/contact-phone.png"/></span>
+            <span class="info">416.993.3693</span>
+            <span class="img"><img src="assets/images/contact-email.png"/></span>
+            <span class="info"><a href=
+        mailto:"karl@shiftcreativestudio.com">karl@shiftcreativestudio.com</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</body>
+</html>

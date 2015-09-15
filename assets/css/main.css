@@ -1,0 +1,314 @@
+html, body {
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: #555555;
+  line-height: 1.4;
+  background: #eaeaea;
+}
+strong {
+  font-weight: bold;
+}
+#header {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  display: block;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0px 0px 40px 0px;
+  text-align: center;
+}
+.content h2 {
+  display: block;
+  font-size: 35px;
+  color: #f08a21;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0px 20px 0px;
+  padding: 40px 0px 0px 0px;
+  line-height: 1;
+}
+.content p {
+  font-size: 18px;
+  margin: 0px 0px 15px 0px;
+}
+.divide {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: 2px solid #ddd;
+  margin: 30px auto;
+}
+#ouradvantage {
+  display: block;
+  width: 100%;
+  background: url(../images/advantage-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0px;
+  overflow: hidden;
+}
+#ouradvantage h2 {
+  color: #ffffff;
+}
+#ouradvantage p {
+  margin: 0px auto;
+  width: 80%;
+  max-width: 500px;
+  color: #ffffff;
+}
+#ouradvantage ul {
+  display: block;
+  width: 100%;
+  margin: 40px auto;
+}
+#ouradvantage ul li {
+  display: block;
+  width: 33.333%;
+  float: left;
+}
+#ouradvantage ul li h3 {
+  color: #474747;
+  font-weight: 600;
+  margin: 20px auto;
+  text-transform: uppercase;
+  line-height: 1;
+  width: 75%;
+}
+#ouradvantage ul li img {
+  display: block;
+  width: 80px;
+  margin: 0px auto 30px auto;
+}
+#ouradvantage ul li p {
+  font-size: 12px;
+  width: 75%;
+  max-width: 300px;
+}
+#ourwork .content {
+  max-width: 600px;
+}
+#ourwork p {
+  margin: 0px auto;
+  width: 70%;
+  max-width: 600px;
+}
+#testimonial {
+  display: block;
+  width: 100%;
+  background: url(../images/testimonial-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0px;
+  overflow: hidden;
+}
+#testimonial .quotes {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0px auto;
+  background: url(../images/quotes.png) no-repeat center center;
+  background-size: 80%;
+  padding: 60px 0px;
+}
+#testimonial p {
+  width: 45%;
+  font-size: 15px;
+  max-width: 600px;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px auto;
+}
+#testimonial p.name {
+  font-weight: 600;
+}
+#testimonial p.name strong {
+  color: #f08a21;
+}
+#clients .content {
+  max-width: 800px;
+}
+#clients p {
+  margin: 0px auto;
+  width: 50%;
+  max-width: 600px;
+}
+#clients ul {
+  display: block;
+  width: 100%;
+  padding: 0px 0px 40px 0px;
+}
+#clients ul li {
+  display: block;
+  width: 25%;
+  float: left;
+}
+#clients ul li img {
+  width: 70%;
+  max-width: 120px;
+}
+#contact {
+  display: block;
+  width: 100%;
+  background: url(../images/contact-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+#contact h2 {
+  color: #ffffff;
+}
+#contact p {
+  margin: 0px auto;
+  width: 80%;
+  max-width: 600px;
+  color: #ffffff;
+}
+#contact .contact-info {
+  font-size: 18px;
+  color: #f08a21;
+  margin: 20px 0px 0px 0px;
+  text-align: right;
+}
+#contact .contact-info {
+  font-size: 18px;
+  color: #f08a21;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+}
+#contact .contact-info a {
+  font-size: 18px;
+  color: #f08a21;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;  
+}
+#contact .contact-info a:hover {
+  color: #ffffff;
+}
+#contact .contact-info span {
+  display: inline-block;
+  float: left;
+  padding: 4px 5px 0px 0px;
+}
+#contact .contact-info span.img {
+  width: 40px;
+  height: 40px;
+  padding: 0px 5px 0px 0px;
+}
+.main-container {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+.fixer-container {
+  float: left;
+  position: relative;
+  left: -50%;
+}
+#contact .contact-info span img{
+  width: 100%;
+}
+.clear {
+  display: block;
+  clear: both;
+}
+.slicknav_menu {
+  display:none;
+}
+@media screen and (max-width: 900px) {
+  /* #menu is the original menu */
+  #nav {
+    display:none;
+  }
+  .slicknav_menu {
+    display:block;
+  }
+  #testimonial .quotes {
+    background-size: 85%;
+  }
+  #testimonial p {
+    width: 50%;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #ouradvantage ul {
+    max-width: 400px;
+  }
+  #ouradvantage ul li {
+    width: 100%;
+    float: none;
+    border-bottom: 1px solid #c06e1a;
+    padding: 20px 0px;
+  }
+  #ouradvantage ul li:last-of-type {
+    border: none;
+    padding-bottom: 0px;
+  }
+  #ouradvantage ul li img {
+    margin: 0px auto 20px auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content h2 {
+    display: block;
+    font-size: 30px;
+  }
+  .content p {
+    font-size: 16px;
+    margin: 0px 0px 15px 0px;
+  }
+  #ourwork p {
+    margin: 0px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  #testimonial .quotes {
+    background: none;
+  }
+  #testimonial p {
+    width: 75%;
+  }
+  #clients p {
+    margin: 0px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  #contact .contact-info span {
+    display: block;
+    float: none;
+    padding: 4px 5px 0px 0px;
+  }
+  #contact .contact-info span.img {
+    display: none;
+  }
+  .main-container {
+    float: none;
+    position: relative;
+    left: 0;
+  }
+  .fixer-container {
+    float: none;
+    position: relative;
+    left: 0;
+  }
+  #contact .contact-info span img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  #clients ul li {
+    display: block;
+    width: 50%;
+    float: left;
+  }
+}
