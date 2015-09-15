@@ -2,8 +2,8 @@ html, body {
 }
 body {
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 200;
+  font-size: 22px;
   color: #555555;
   line-height: 1.4;
   background: #eaeaea;
@@ -27,16 +27,15 @@ strong {
 }
 .content h2 {
   display: block;
-  font-size: 35px;
+  font-size: 38px;
   color: #f08a21;
   font-weight: 600;
   text-transform: uppercase;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 20px 20px 20px;
   padding: 40px 0px 0px 0px;
   line-height: 1;
 }
 .content p {
-  font-size: 18px;
   margin: 0px 0px 15px 0px;
 }
 .divide {
@@ -160,7 +159,7 @@ strong {
   background: url(../images/contact-bg.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  padding: 20px 0px;
+  padding: 40px 0px;
   overflow: hidden;
 }
 #contact h2 {
@@ -169,7 +168,7 @@ strong {
 #contact p {
   margin: 0px auto;
   width: 80%;
-  max-width: 600px;
+  max-width: 480px;
   color: #ffffff;
 }
 #contact .contact-info {
@@ -179,7 +178,7 @@ strong {
   text-align: right;
 }
 #contact .contact-info {
-  font-size: 18px;
+  font-size: 20px;
   color: #f08a21;
   margin: 20px 0px 0px 0px;
   text-align: center;
@@ -197,7 +196,7 @@ strong {
 #contact .contact-info span {
   display: inline-block;
   float: left;
-  padding: 4px 5px 0px 0px;
+  padding: 2px 5px 0px 0px;
 }
 #contact .contact-info span.img {
   width: 40px;
