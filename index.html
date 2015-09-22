@@ -9,7 +9,7 @@
   <link rel="icon" href="favicon.ico?v=1.1"> 
   <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
   <link href="assets/css/main.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Raleway:300,600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300,600,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -37,7 +37,7 @@
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
-              scrollTop: target.offset().top
+              scrollTop: target.offset().top + (-60)
             }, 1000);
             return false;
           }
@@ -55,17 +55,16 @@
 <body id="top">
   <div ></div>
   <div id="header">
-    <div class="center">
-      <div id="nav">          
-        <a href="#services">services</a>
-        <a href="#advantage">advantage</a>
-        <a href="#work">work</a>
-        <a href="#testimonials">testimonials</a>
-        <a href="#clients">clients</a>
-        <a href="#contact">contact</a>
-      </div>
-      <div class="clear"></div>
+    <img src="assets/images/shift-logo.png" class="logo"/>      
+    <div id="nav">          
+      <a href="#whatwedo">services</a>
+      <a href="#ouradvantage">advantage</a>
+      <a href="#ourwork">work</a>
+      <a href="#testimonial">testimonials</a>
+      <a href="#clients">clients</a>
+      <a href="#contact">contact</a>
     </div>
+    <div class="clear"></div>
   </div>
   <div id="whatwedo">
     <div class="content">

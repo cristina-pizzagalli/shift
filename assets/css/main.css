@@ -37,6 +37,32 @@ strong {
 .content p {
   margin: 0px 0px 15px 0px;
 }
+#header {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: rgba(9,9,9,0.9);
+  text-align: left;
+  z-index: 999;
+}
+#header img.logo {
+  width: 120px;
+  padding: 15px 0px 10px 15px;
+}
+#header #nav {
+  font-size: 12px;
+  font-weight: 800;
+  float: right;
+  padding: 20px;
+}
+#header #nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
 .divide {
   display: block;
   width: 100%;
