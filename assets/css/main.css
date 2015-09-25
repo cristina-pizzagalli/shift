@@ -127,7 +127,7 @@ strong {
 #header-banner p {
   width: 80%;
   font-size: 20px;
-  max-width: 550px;
+  max-width: 500px;
   color: #ffffff;
   text-align: center;
   margin: 20px auto;
@@ -291,7 +291,7 @@ strong {
   padding: 40px 0px;
 }
 #ourwork .content {
-  max-width: 600px;
+  max-width: 1000px;
 }
 #ourwork h2 {
   font-size: 45px;
@@ -300,7 +300,7 @@ strong {
 #ourwork p {
   margin: 0px auto;
   width: 90%;
-  max-width: 1000px;
+  max-width: 600px;
 }
 #testimonial {
   display: block;
