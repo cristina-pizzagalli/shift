@@ -1,0 +1,250 @@
+@media screen and (max-width: 900px) {
+  #testimonial .quotes {
+    background-size: 85%;
+  }
+  #testimonial p {
+    width: 50%;
+  }
+  #nav {
+    display: none;
+  }
+  .mobile-content {
+    display: block;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .menu-right {
+    background:  none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    padding: 3px 0px 6px 0px;
+    position: absolute;
+    right: 9px;
+    text-indent: -9999px;
+    top: 0px;
+    width: 30px;
+    z-index: 999999;
+  }
+  .menu-right.menu-active {
+    position: fixed;
+  }
+  .menu-right b {
+    display: block;
+    margin-top: 20px;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    transition: all 500ms ease-in-out 0s;
+  }
+  .menu-right span::before {
+    top: -8px;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 28px;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    transition: all 500ms ease-in-out 0s;
+  }
+  .menu-right span::after {
+    bottom: -8px;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 28px;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    transition: all 500ms ease-in-out 0s;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 28px;
+  }
+  .menu-right.menu-active span::before {
+    transform: rotate(45deg);
+  }
+  .menu-right.menu-active span::after, .menu-right.menu-active span::before {
+    top: 0;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    transition: all 500ms ease-in-out 0s;
+  }
+  .menu-right span::before {
+    top: -8px;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 28px;
+  }
+  .menu-right.menu-active span::after {
+    transform: rotate(-45deg);
+  }
+  .menu-right.menu-active span::after, .menu-right.menu-active span::before {
+    top: 0;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    transition: all 500ms ease-in-out 0s;
+  }
+  .menu-right span::after {
+    bottom: -8px;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 28px;
+  }
+  .menu-right.menu-active span {
+    background-color: transparent;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    transition: all 500ms ease-in-out 0s;
+  }
+  .menu-right span, .menu-right span::after, .menu-right span::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 1px;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 28px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #whatwedo ul {
+    max-width: 400px;
+  }
+  #whatwedo ul li {
+   width: 100%;
+    float: none;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0px;
+  }
+  #ouradvantage ul {
+    max-width: 400px;
+  }
+  #ouradvantage ul li {
+    width: 100%;
+    float: none;
+    border-bottom: 1px solid #c06e1a;
+    padding: 20px 0px;
+  }
+  #ouradvantage ul li:last-of-type {
+    border: none;
+    padding-bottom: 0px;
+  }
+  #ouradvantage ul li img {
+    margin: 0px auto 20px auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  #header-banner h3 {
+    font-size: 14px;
+  } 
+  #header-banner h2 {
+    font-size: 44px;
+  } 
+  #header-banner p {
+    font-size: 16px;
+  }
+  #header-banner a.contact-us {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #header-banner p {
+    font-size: 14px;
+  }
+  #header-banner p br {
+    display: none;
+  }
+  .content h2, #clients h2, #ourwork h2, #ouradvantage h2, #whatwedo h2 {
+    font-size: 32px;
+  }
+  .content p {
+    font-size: 16px;
+  }
+  #testimonial p {
+    font-size: 14px;
+  }
+  #ourwork p {
+    margin: 0px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  #testimonial .quotes {
+    background: none;
+  }
+  #testimonial p {
+    width: 75%;
+  }
+  #clients p {
+    margin: 0px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  #contact .contact-info span {
+    display: block;
+    float: none;
+    padding: 4px 5px 0px 0px;
+  }
+  #contact .contact-info span.img {
+    display: none;
+  }
+  .main-container {
+    float: none;
+    position: relative;
+    left: 0;
+  }
+  .fixer-container {
+    float: none;
+    position: relative;
+    left: 0;
+  }
+  #contact .contact-info span img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  #header-banner ul.bxslider-header li {
+    background-size: 200% !important;
+  }
+}
+@media screen and (max-width: 380px) {
+  #clients ul li {
+    display: block;
+    width: 50%;
+    float: left;
+  }
+}
