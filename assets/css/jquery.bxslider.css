@@ -19,6 +19,8 @@
 	margin: 0 auto 20px;
 	padding: 0;
 	*zoom: 1;
+	display: block;
+	width: 100%;
 }
 
 .bx-wrapper img {
@@ -30,7 +32,7 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	left: -5px;
+	left: 0px;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -46,6 +48,14 @@
 	bottom: -60px;
 	width: 100%;
 }
+#header-banner .bx-wrapper .bx-pager,
+#header-banner .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+
 
 /* LOADER */
 
@@ -76,6 +86,7 @@
 	display: inline-block;
 	*zoom: 1;
 	*display: inline;
+	z-index: 999;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
@@ -100,12 +111,12 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 5px;
+	left: 20px;
 	background: url(../images/controls.png) no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
-	right: 5px;
+	right: 20px;
 	background: url(../images/controls.png) no-repeat -43px -32px;
 }
 

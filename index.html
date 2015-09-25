@@ -17,14 +17,21 @@
   <script src="assets/js/jquery.bxslider.js"></script>
   <!-- bxSlider CSS file -->
   <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/slicknav.css" />
-  <script src="assets/js/jquery.slicknav.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/jPushMenu.css" />
+  <script src="assets/js/jPushMenu.js"></script>      
+
   <script type="text/javascript">
-    $(document).ready(function(){  
+    $(document).ready(function(){ 
+      $('.toggle-menu').jPushMenu(); 
       $('.bxslider').bxSlider({
         auto: true,
         easing: 'ease-in',
         pause: 15000
+      });
+      $('.bxslider-header').bxSlider({
+        auto: true,
+        easing: 'ease-in',
+        pause: 10000
       });
     });
   </script>
@@ -37,7 +44,7 @@
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
-              scrollTop: target.offset().top + (-60)
+              scrollTop: target.offset().top + (-0)
             }, 1000);
             return false;
           }
@@ -46,16 +53,14 @@
     });
   </script>
   <script>
-    $(function(){
-      $('#nav').slicknav();
-    });
+    
+
   </script>
 </head>
 
 <body id="top">
-  <div ></div>
   <div id="header">
-    <img src="assets/images/shift-logo.png" class="logo"/>      
+    <a href="#top"><img src="assets/images/shift-logo.png" class="logo"/></a>     
     <div id="nav">          
       <a href="#whatwedo">services</a>
       <a href="#ouradvantage">advantage</a>
@@ -64,8 +69,51 @@
       <a href="#clients">clients</a>
       <a href="#contact">contact</a>
     </div>
+    <!-- Right menu element-->
+    <div class="mobile-menu">
+      <div class="mobile-header">
+        <a class="toggle-menu menu-right push-body" href="#"><b><span></span></b></a>
+      </div>
+      <!-- Left menu element-->
+      <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+        <ul>
+          <li><a href="#whatwedo">services</a></li>
+          <li><a href="#ouradvantage">advantage</a></li>
+          <li><a href="#ourwork">work</a></li>
+          <li><a href="#testimonial">testimonials</a></li>
+          <li><a href="#clients">clients</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="clear"></div>
   </div>
+  <div id="header-banner">
+    <ul class="bxslider-header">
+      <li style="background: url(assets/images/header-banner-bg.jpg); background-size: cover; background-attachment: fixed;">
+        <div class="slide-wrapper">
+          <div class="slider-wrapper-inner">
+            <h3>Design / strategy / COPYWRITING / PHOTOGRAPHY </h3>
+            <h2>TIME to shift</h2>
+            <p>At Shift Creative Studio, we do things differently.<br/>
+            Our unique business model ensures high-quality work while keeping costs reasonable.<br/>
+            It’s time to have your cake and eat it too!</p>
+            <a href="#contact" class="contact-us">CONTACT US</a>
+          </div>
+        </div>
+      </li>
+      <li style="background: url(assets/images/header-banner-bg2.jpg); background-size: cover; background-attachment: fixed;">
+        <div class="slide-wrapper">
+          <div class="slider-wrapper-inner">
+            <h2>Targeted expertise</h2>
+            <p>Our talented team of designers, developers and copywriters have the right experience and expertise to accomplish any task. No upsell. Just quality products from top to bottom.</p>
+          </div>
+       </div>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
   <div id="whatwedo">
     <div class="content">
       <h2>WHAT WE DO</h2>
